@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Notion clone using React + Vite + Tiptap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is font-end only, it is possible to edit the text and create a custom text with all the functionalities like Bold, italic, code block and others.
 
-Currently, two official plugins are available:
+The user can interact with the application by typing anything, double clicking any text or typing "/" to open the Bubble menu or the floating menu.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Possible upgrades: Add integration with RadixUI for more accessibility on menus, add more text edition options
 
-## Expanding the ESLint configuration
+Here it is how the application should look like
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![image](https://github.com/vicentemattos1/notion-clone/assets/48080194/846d86f1-51f1-4ac8-a9e6-22c39d8f2b2e)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![image](https://github.com/vicentemattos1/notion-clone/assets/48080194/d314b475-9f23-4447-90d9-9badbbb7d93b)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+![image](https://github.com/vicentemattos1/notion-clone/assets/48080194/0be6c5d2-53ca-473c-a332-9fded596495b)
